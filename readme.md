@@ -9,4 +9,4 @@ Coloque aqui embaixo o comando que a equipe deve usar pra criar um banco de dado
 
 Acesse o terminal e digite o seguinte comando:
 
-docker run --name devopspro-mongo -e ME_CONFIG_MONGODB_ADMINUSERNAME=docker_usr -e ME_CONFIG_MONGODB_ADMINPASSWORD=docker_pwd -d mongo
+$ docker run --name devopspro-mongo -e MONGO_INITDB_ROOT_USERNAME=docker_usr -e MONGO_INITDB_ROOT_PASSWORD=docker_pwd -d mongo
