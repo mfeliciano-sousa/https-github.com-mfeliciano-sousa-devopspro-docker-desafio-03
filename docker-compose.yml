@@ -1,0 +1,11 @@
+services:
+
+  mongo:
+    image: mongo
+    container_name: devopspro-mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: docker_usr
+      MONGO_INITDB_ROOT_PASSWORD: docker_pwd
+
+  
